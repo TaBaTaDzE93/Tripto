@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin-top: 50px;
+}
+
+.gradient {
+  width: 1602px;
+  height: 841px;
+  left: 160px;
+  top: 142px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 115, 0, 0) 50%,
+    rgba(10, 47, 7, 0.6) 100%
+  );
+  border-radius: 38px;
+}
+
+main {
+  width: 1602px;
+  height: 841px;
+  margin: auto;
+  background-image: url("img/landscape.png");
+  border-radius: 38px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+header {
+  width: 1602px;
+  height: 124px;
+  display: flex;
+  margin: auto;
+}
+
+/********** LOGO **********/
+.airplan {
+  width: 58px;
+  height: 56px;
+  margin: 42px 8px 26px 45px;
+}
+
+.tripto {
+  width: 108px;
+  height: 53px;
+  margin: 43px 602px 28px 0;
+}
+
+/********** MENU **********/
+.menu {
+  display: flex;
+  text-transform: uppercase;
+  margin: 62px 0 40px 0;
+  padding: 0;
+  font-family: "Staatliches", cursive;
+  font-style: 400;
+  font-size: 22px;
+  line-height: 28px;
+  vertical-align: Top;
+  letter-spacing: 0.095em;
+}
+
+.menu a {
+  color: white;
+}
+
+.Trips {
+  margin-left: 83px;
+}
+
+.Enquiry {
+  margin-left: 95px;
+}
+
+/********** BUTTON **********/
+
+.Plan {
+  width: 94px;
+  height: 28px;
+  background-color: #6cb524;
+  padding: 22px 51px 22px 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  margin: 34px 36px 18px 116px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 22px;
+  vertical-align: Top;
+  letter-spacing: 0.002em;
+}
+
+/********** BODY **********/
+
+.Artboard {
+  width: 519.7px;
+  height: 400px;
+  display: flex;
+  margin: auto;
+  margin-top: -180px;
+}
+
+.adventure {
+  width: 959px;
+  height: 40px;
+  font-family: "Staatliches", cursive;
+  font-style: 400;
+  font-size: 32px;
+  line-height: 40px;
+  vertical-align: Center;
+  vertical-align: Center;
+  letter-spacing: 0.15em;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 165px;
+  color: white;
+}
+
+.bodytripto {
+  width: 1162px;
+  height: 243px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  font-size: 235px;
+  line-height: 260px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: white;
+}

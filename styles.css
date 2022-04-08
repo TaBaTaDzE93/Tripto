@@ -144,3 +144,21 @@ header {
   text-transform: uppercase;
   color: white;
 }
+
+.buttons {
+  width: 1509.5px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -375px;
+}
+
+.vector2 {
+  width: 36.5px;
+  height: 23px;
+}
+
+.vector1 {
+  width: 36.5px;
+  height: 23px;
+}
